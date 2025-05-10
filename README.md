@@ -16,7 +16,6 @@ termux-setup-storage
 pkg update -y
 pkg install python -y
 pip install requests pyfiglet rich
-pkg install xdg-utils
 rm -rf Virus_Scan
 git clone https://github.com/DARK-NET-403/Virus_Scan
 cd Virus_Scan
