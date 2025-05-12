@@ -1,18 +1,19 @@
+# 🛡️ Virus_Scan - URL & File Virus Scanner
 
-## Assalamaualaikum
-## Virus_Scan
-* Created by Ariyan Rabbi
-* Don't Try to decompile or edit this tool.
-* This tool for Url and (APK, EXE, etc.) Virus Scanner by  Termux
-* Use this only for educational purpose.
-* I can't responsible for any misuse.Use this at your own risk.
-## Password
-````
-DARK-NET
-````
-## Commands & Usage:⬇️
-````
-termux-setup-storage
+**Created by:** Ariyan Rabbi (DARK-NET)  
+**Tool Type:** Malware Scanner  
+**Platform:** Termux / Linux  
+**Purpose:** Scan suspicious URLs or files (APK, EXE, etc.) for viruses  
+**Disclaimer:** Use this tool **only for educational and ethical purposes**.
+
+---
+
+## ⚙️ Installation & Usage:
+
+Run the following commands in Termux or Linux terminal:
+
+```bash
+termux-setup-storage  # For Termux only
 pkg update -y
 pkg install python -y
 pip install requests pyfiglet rich
@@ -21,26 +22,51 @@ git clone https://github.com/DARK-NET-403/Virus_Scan
 cd Virus_Scan
 chmod +x scan.bin
 ./scan.bin
-````
-## Features:⬇️
+```
 
-* `Virus Scan For Url And (APK, EXE, etc.)`
-Code For Showing Time Date Was Copied From Another Tool
+---
 
-## Trouble-Shoot
-* `Download The Latest Version Of Termux From F-droid`
-* `For Change Login Password Run This Tool And Make Banner Again With New Password`
-* `For Remove Banner Run This Tool And Select 'Remove Banner' Option`
+## ✨ Features:
 
-#### All Error Was Fixed.If You Find Any Error Contract With Me
+- 🕵️ Scan any **URL**, **APK**, **EXE**, or other files for viruses  
+- ⚡ Fast & Simple interface  
+- 📊 Shows **scan time** and **date**  
+- 🧠 Great for learning ethical hacking & security analysis
 
-## Find Me on :
+---
 
-[![Facebook](https://img.shields.io/badge/Facebook-green?style=for-the-badge&logo=facebook)](https://www.facebook.com/share/1FiCkCecyD/)
-[![Teligram](https://img.shields.io/badge/Chat-Teligram-blue?style=for-the-badge&logo=teligram)](https://t.me/DARK_NET_403)
-[![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/DARK.NET.403)
-[![Github](https://img.shields.io/badge/Github-Github-143green?style=for-the-badge&logo=github)](https://github.com/DARK-NET-403)
+## 🔐 Password:
+```
+DARK-NET
+```
 
+---
 
-### Enjoy All
-### Thanks ❣️❣️
+## ❗ Trouble-Shooting:
+
+- ✅ Use latest **Termux** from [F-Droid](https://f-droid.org/)  
+- ☑️ Ensure proper internet connection  
+- 🔁 Facing issues? Delete and re-clone the tool
+
+---
+
+## 📬 Contact Me:
+
+Get in touch if you have issues or ideas to improve the tool:
+
+[![Facebook](https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1FiCkCecyD/)  
+[![Telegram](https://img.shields.io/badge/Telegram-Chat-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DARK_NET_403)  
+[![Messenger](https://img.shields.io/badge/Messenger-Chat-006AFF?style=for-the-badge&logo=messenger&logoColor=white)](https://m.me/DARK.NET.403)  
+[![GitHub](https://img.shields.io/badge/GitHub-Code-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DARK-NET-403)
+
+---
+
+## ⚠️ Warning:
+
+> **Do not modify or misuse this tool.**  
+> This is strictly for **educational** purposes only.
+
+---
+
+### ✅ Enjoy scanning safely and stay ethical!  
+### ❤️ Thanks for using Virus_Scan!
