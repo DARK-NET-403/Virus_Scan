@@ -1,72 +1,95 @@
-# 🛡️ Virus_Scan - URL & File Virus Scanner
 
-**Created by:** Ariyan Rabbi (DARK-NET)  
-**Tool Type:** Malware Scanner  
-**Platform:** Termux / Linux  
-**Purpose:** Scan suspicious URLs or files (APK, EXE, etc.) for viruses  
-**Disclaimer:** Use this tool **only for educational and ethical purposes**.
+<h1 align="center">🛡️ Virus Scanner v1.0 🛡️</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Project_Type-Educational-green?style=for-the-badge&logo=book" alt="Project Type: Educational"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=github" />
+</p>
 
 ---
 
-## ⚙️ Installation & Usage:
+## ⚠️ Disclaimer:
+> This tool is **strictly for educational purposes only**. The author is **not responsible** for any misuse. Use it **ethically and legally**!
 
-Run the following commands in Termux or Linux terminal:
+---
+
+## 🧠 About the Project
+
+**Virus Scanner** is a Python-based educational tool designed to detect malicious signatures in script files. Whether you're learning malware analysis or building a secure environment, this scanner gives you a head start.
+
+---
+
+## 🚀 Features:
+- 🔍 Scan `.py`, `.exe`, `.bat`, and `.txt` files
+- ⚡ Signature-based detection engine
+- 📜 Simple CLI interface for ease of use
+- 🧠 Fully written in Python (no external dependencies)
+- 📂 Lightweight & beginner-friendly
+
+---
+
+## ⚙️ How to Run:
 
 ```bash
-termux-setup-storage  # For Termux only
-pkg update -y
-pkg install python -y
-pip install requests pyfiglet rich
-rm -rf Virus_Scan
-git clone https://github.com/DARK-NET-403/Virus_Scan
-cd Virus_Scan
-chmod +x scan.bin
-./scan.bin
+# Clone the repository
+git clone https://github.com/DARK-NET-403/Virus-Scanner
+
+# Change directory
+cd Virus-Scanner
+
+# Run the scanner
+python scanner.py
 ```
 
 ---
 
-## ✨ Features:
-
-- 🕵️ Scan any **URL**, **APK**, **EXE**, or other files for viruses  
-- ⚡ Fast & Simple interface  
-- 📊 Shows **scan time** and **date**  
-- 🧠 Great for learning ethical hacking & security analysis
-
----
-
-## 🔐 Password:
+## 📥 Sample Output:
 ```
-DARK-NET
+[+] Scanning file: infected_script.py
+[!] Warning: Suspicious signature found -> EICAR_TEST
+[✓] Scan Completed. Threats Detected: 1
 ```
 
 ---
 
-## ❗ Trouble-Shooting:
-
-- ✅ Use latest **Termux** from [F-Droid](https://f-droid.org/)  
-- ☑️ Ensure proper internet connection  
-- 🔁 Facing issues? Delete and re-clone the tool
+## 🛠️ Requirements:
+- Python 3.10 or higher
+- Works on Termux, Linux, Windows, Mac
 
 ---
 
-## 📬 Contact Me:
+## 🧪 Signature Database:
+Includes basic sample signatures like:
+- `EICAR_TEST`
+- `os.system("rm -rf /")`
+- `subprocess.Popen("shutdown")`
 
-Get in touch if you have issues or ideas to improve the tool:
-
-[![Facebook](https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1FiCkCecyD/)  
-[![Telegram](https://img.shields.io/badge/Telegram-Chat-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DARK_NET_403)  
-[![Messenger](https://img.shields.io/badge/Messenger-Chat-006AFF?style=for-the-badge&logo=messenger&logoColor=white)](https://m.me/DARK.NET.403)  
-[![GitHub](https://img.shields.io/badge/GitHub-Code-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DARK-NET-403)
-
----
-
-## ⚠️ Warning:
-
-> **Do not modify or misuse this tool.**  
-> This is strictly for **educational** purposes only.
+> You can add your own custom signatures in `signatures.txt`!
 
 ---
 
-### ✅ Enjoy scanning safely and stay ethical!  
-### ❤️ Thanks for using Virus_Scan!
+## 👨‍💻 Author Info:
+
+| Platform | Link |
+|----------|------|
+| GitHub   | [DARK-NET-403](https://github.com/DARK-NET-403) |
+| Facebook | [Ariyan Rabbi](https://www.facebook.com/share/1FiCkCecyD/) |
+| Telegram | [@DARK_NET_403](https://t.me/DARK_NET_403) |
+| Messenger| [Ariyan Rabbi](https://m.me/DARK.NET.403) |
+
+---
+
+## ⭐ Show Some Love
+
+```bash
+⭐ Star this repo
+🔁 Share with friends
+```
+
+<p align="center">
+  <img src="https://media.tenor.com/2uyENRmiUt0AAAAC/coding.gif" width="300px" />
+</p>
+
+---
+
+> **Made with curiosity & caffeine by Ariyan Rabbi for ethical hacking learners**
