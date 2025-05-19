@@ -31,13 +31,8 @@
 ## ⚙️ How to Run:
 
 ```bash
-# Clone the repository
 git clone https://github.com/DARK-NET-403/Virus-Scanner
-
-# Change directory
 cd Virus-Scanner
-
-# Run the scanner
 python scanner.py
 ```
 
