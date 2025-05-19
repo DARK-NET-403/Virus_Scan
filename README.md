@@ -31,8 +31,8 @@
 ## ⚙️ How to Run:
 
 ```bash
-git clone https://github.com/DARK-NET-403/Virus-Scan
-cd Virus-Scan
+git clone https://github.com/DARK-NET-403/Virus_Scan
+cd Virus_Scan
 python scanner.py
 ```
 
