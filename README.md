@@ -33,7 +33,8 @@
 ```bash
 git clone https://github.com/DARK-NET-403/Virus_Scan
 cd Virus_Scan
-python scanner.py
+chmod +x scanner.bin
+./scanner.bin
 ```
 
 ---
